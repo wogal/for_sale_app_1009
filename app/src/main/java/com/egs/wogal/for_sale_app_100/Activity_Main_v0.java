@@ -7,7 +7,9 @@ public class Activity_Main_v0 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        int a;
+        a = 123;
         super.onCreate(savedInstanceState);
-       //  setContentView(R.layout.activity__main_v0);
+         setContentView(R.layout.activity_test_100);
     }
 }
