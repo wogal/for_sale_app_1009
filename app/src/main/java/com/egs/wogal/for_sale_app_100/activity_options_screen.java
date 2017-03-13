@@ -34,7 +34,7 @@ public class activity_options_screen extends AppCompatActivity implements View.O
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_options_screen_copy_100);
+        setContentView(R.layout.layout_v1);
      //   initializeWidgets();
      //   initializeListeners();
 

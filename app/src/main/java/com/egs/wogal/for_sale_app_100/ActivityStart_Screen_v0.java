@@ -10,12 +10,9 @@ public class ActivityStart_Screen_v0 extends AppCompatActivity implements View.O
 
     Button bBut_optionsMenu;
 
-  //  C:\Android_Apps\For_Sale_App_100\for_sale_app_100\app\src\main\res\layout\activity_options_screen_copy_100.xml
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+  //  C:\Android_Apps\For_Sale_App_100\for_sale_app_100\app\src\main\res\layout\layout_v1.xmltected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start_screen_v0);
+        setContentView(R.layout.layout_v0);
         bBut_optionsMenu = (Button) findViewById(R.id.butt_lets_start_selling_v0);
         bBut_optionsMenu.setOnClickListener(this);
     }
