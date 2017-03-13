@@ -6,7 +6,6 @@
 
     <TextView
         android:id="@+id/start_header_text_v0"
-        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -16,6 +15,7 @@
         android:layout_marginTop="42dp"
         android:background="@drawable/bg_btn_login_background"
         android:gravity="center"
+        android:padding="10dp"
         android:text="Hello Wogal ..(v0)"
         android:textColor="#F44336"
         android:textSize="20sp"
@@ -23,7 +23,6 @@
 
     <ImageView
         android:id="@+id/master_logo_vo"
-        android:padding="5dp"
         android:layout_width="282dp"
         android:layout_height="190dp"
         android:layout_below="@+id/start_header_text_v0"
@@ -33,6 +32,7 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/bg_btn_login_background"
         android:foregroundGravity="center"
+        android:padding="5dp"
         android:scaleType="centerInside"
         android:src="@drawable/for_sale_logo_640_480" />
 
@@ -47,15 +47,9 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/bg_btn_login_background"
         android:gravity="center"
-        android:text="Lets Start Selling"
         android:padding="10dp"
+        android:text="Lets Start Selling"
         android:textColor="@color/button_login_txt_colour"
         android:textSize="35sp"
         android:textStyle="bold" />
-
-    <com.nightonke.boommenu.BoomMenuButton
-        android:id="@+id/butt_boom_menu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
 </RelativeLayout>
