@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 public class Activity_Main_v0 extends AppCompatActivity {
 
+    // start sreen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         int a;
