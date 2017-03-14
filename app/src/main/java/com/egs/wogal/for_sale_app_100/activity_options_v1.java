@@ -18,7 +18,7 @@ import static android.view.KeyEvent.KEYCODE_ENTER;
 import static com.egs.wogal.for_sale_app_100.R.id.text_view_sales_item_name_v2;
 // import static com.egs.wogal.for_sale_app.R.id.text_view_sales_item_name_v2;
 
-public class activity_options_screen extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener {
+public class activity_options_v1 extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener {
 
     //  private TextInputLayout inputLayoutName, inputLayoutEmail, inputLayoutPassword, inputTest;
 
@@ -75,7 +75,7 @@ public class activity_options_screen extends AppCompatActivity implements View.O
                 break;
             }
             case R.id.But_item_name_v1: {
-                AlertDialog.Builder mBuilder = new AlertDialog.Builder(activity_options_screen.this);
+                AlertDialog.Builder mBuilder = new AlertDialog.Builder(activity_options_v1.this);
                 mView = getLayoutInflater().inflate(R.layout.sale_object_name_v2, null);
                 mTxtItemName = (TextView) mView.findViewById(text_view_sales_item_name_v2);
                 mBut_name_item_GoBack = (Button) mView.findViewById(R.id.But_item_name_done_v2);
