@@ -8,6 +8,7 @@ public class test_activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.test_activity);
+        setContentView(R.layout.layout_v1);
+   //     setContentView(R.layout.test_activity);
     }
 }

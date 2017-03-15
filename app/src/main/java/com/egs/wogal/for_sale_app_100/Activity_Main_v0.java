@@ -24,8 +24,8 @@ public class Activity_Main_v0 extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.butt_lets_start_selling_v0: {
-           //     Intent intent = new Intent(this,activity_options_v1.class);
-                Intent intent = new Intent(Activity_Main_v0.this,test_activity.class);
+                Intent intent = new Intent(this,activity_options_v1.class);
+           //     Intent intent = new Intent(Activity_Main_v0.this,test_activity.class);
                 startActivity(intent);
             }
         }
