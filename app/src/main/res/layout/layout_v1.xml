@@ -3,15 +3,19 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/earle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
 
         <TextView
-            android:id="@+id/R.id.txt_header_v1"
+            android:id="@+id/txt_header_v1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -29,13 +33,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginBottom="25dp"
+            android:layout_marginBottom="35dp"
             android:background="@drawable/obect_header_txt_v1_"
             android:gravity="center"
             android:padding="15dp"
             android:text="-------"
             android:textColor="#F4511E"
-            android:textSize="20dp"
+            android:textSize="30dp"
             android:textStyle="bold" />
 
         <Button
@@ -59,5 +63,18 @@
             android:textColor="#FFC107"
             android:textSize="25dp"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/But_make_item_v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_btn_login_background"
+            android:text="Make Sales Item"
+            android:textColor="#FFC107"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
     </LinearLayout>
 </RelativeLayout>

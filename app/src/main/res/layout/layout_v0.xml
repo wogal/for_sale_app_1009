@@ -37,6 +37,8 @@
         android:src="@drawable/for_sale_logo_640_480" />
 
     <Button
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/master_logo_vo"
         android:id="@+id/butt_lets_start_selling_v0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

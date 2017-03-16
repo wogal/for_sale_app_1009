@@ -1,6 +1,7 @@
 package com.egs.wogal.for_sale_app_100;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,6 +16,7 @@ public class Activity_Main_v0 extends AppCompatActivity implements View.OnClickL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.layout_v0);
         mBtn_startselling_vn = (Button) findViewById(R.id.butt_lets_start_selling_v0);
         mBtn_startselling_vn.setOnClickListener(this);
@@ -25,7 +27,7 @@ public class Activity_Main_v0 extends AppCompatActivity implements View.OnClickL
         switch (v.getId()) {
             case R.id.butt_lets_start_selling_v0: {
                 Intent intent = new Intent(this,activity_options_v1.class);
-           //     Intent intent = new Intent(Activity_Main_v0.this,test_activity.class);
+           //     Intent intent = new Intent(Activity_Main_v0.this,activity_options_v1.class);
                 startActivity(intent);
             }
         }
